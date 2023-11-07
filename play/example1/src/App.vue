@@ -1,12 +1,17 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-import Txt from './components/Txt.vue'
-
+// import HelloWorld from './components/HelloWorld.vue'
+// import Txt from './components/Txt.vue'
+import UseHook from './views/UseHook.vue';
+import UseHook1 from './views/UseHook1.vue';
 </script>
 
 <template>
-  <Txt />
-  <HelloWorld msg="Vite + Vue" />
+  <div>
+    <UseHook />
+    <UseHook1 />
+  </div>
+  <!-- <Txt />
+  <HelloWorld msg="Vite + Vue" /> -->
 </template>
 
 <style scoped>
